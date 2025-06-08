@@ -1,6 +1,6 @@
 import React from "react";
 import "./location.css";
-import images from "../images/airplanes.svg";
+import images from "../images/airplanes.png";
 
 const Location = () => {
   const handleClick = () => {
