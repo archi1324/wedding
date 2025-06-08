@@ -1,6 +1,6 @@
 import React from "react";
 import "./location.css";
-import images from "../images/airplanes.svg";
+import images from "../images/airplanes.webp";
 
 const Location = () => {
   const handleClick = () => {
@@ -16,7 +16,7 @@ const Location = () => {
       <p className="location_text">
         Наша свадьба будет проходить на аэродроме Первушино
       </p>
-      <img className="location_img" src={images} alt="" />
+      <img className="location_img" src={images} alt="" loading="lazy" decoding="async"/>
       <button
         className="location_button"
         onClick={handleClick}

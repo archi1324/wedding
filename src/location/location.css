@@ -2,7 +2,8 @@
 width: 208px;
     margin-top: 10px;
     height: 29px;
-    margin-left: 85px;
+    margin-left: auto;
+    margin-right: auto;
 
 font-family: 'Exo2', sans-serif;
 font-weight: 200;
@@ -32,7 +33,8 @@ letter-spacing: 0%;
   background-color: #AAB9B1C4; /* фон */
   color: #000000; /* чёрный текст */
   margin-top: 16px;
-  margin-left: 113px;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   font-family: 'Exo2', sans-serif;
   font-weight: 200;

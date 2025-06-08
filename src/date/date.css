@@ -3,16 +3,6 @@
     margin-left: 5px;
 }
 
-.main_img_date{
-    margin-top: -62px;
-    margin-left: 9px;
-}
-
-.main_img_timing{
-    margin-top: 14px;
-    margin-left: -5px;
-}
-
 .h1_text{
 width: 85;
 height: 23;
@@ -21,7 +11,6 @@ font-weight: 200;
 font-size:24px;
 line-height: 125%;
 letter-spacing: 0%;
-
     margin-top: 5px;
     margin-left: 125px;
 }
@@ -109,4 +98,28 @@ font-family: 'Exo2', sans-serif;
 .main_img_colors{
   margin-top: 6px;
     margin-left: 10px;
+}
+
+.main_img_date,
+.main_img_timing,
+.main_img_woman,
+.main_img_colors {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.main_img_date{
+    margin-top: -62px;
+}
+
+.main_img_timing{
+    margin-top: 14px;
+        margin-left: 12px;
+
+}
+
+.h1_text{
+  text-align: center;
+  margin-left: 0;
 }

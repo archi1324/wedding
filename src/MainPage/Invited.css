@@ -5,8 +5,8 @@ height: 274px;
 .H1__text{
   width: 219px;
 height: 54px;
-margin-top: 19px;
-margin-left: 78px;
+    margin-left: auto;
+    margin-right: auto;
 margin-bottom: 0;
 font-family: 'Greate_Vibes', sans-serif;;
 font-weight: 400;
@@ -30,6 +30,7 @@ color: #000000;
 .text_container{
   width: 347px;
   height: 230px;
-  margin: auto;
+      margin-left: auto;
+    margin-right: auto;
   margin-top: 8px;
 }

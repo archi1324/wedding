@@ -1,13 +1,14 @@
-.main__container{
-max-height: 325px;
-width: 100%;
-position: relative
+.main__container {
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Чтобы тень не выходила за пределы */
 }
+
 
 .header__text{
   position: absolute;
   top: 244px;
-  left: 217px;
+  left: 260px;
   width: 147px;
   height: 43px;
   color: #F0692B;
@@ -38,4 +39,10 @@ padding: 0;
   height: 75px; 
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
   pointer-events: none;
+}
+
+.main_img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

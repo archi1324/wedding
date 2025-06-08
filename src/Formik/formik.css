@@ -1,5 +1,6 @@
 .form-wrapper {
   margin-top: 14.35px;
+  padding: 0 14px;
 }
 
 .form__title {
@@ -63,35 +64,9 @@
   font-weight: 200;
   font-size: 9.49px;
   line-height: 125%;
-  margin-left: 134px;
+  align-self: center; 
   margin-top: 2px;
   border: none;
-}
-
-.form_text {
-  width: 235px;
-  height: 24px;
-  font-weight: 200;
-  font-size: 18.97px;
-  line-height: 100%;
-  font-family: 'Exo2', sans-serif;
-  color: #EF692B;
-  margin-left: 116px;
-  margin-top: 1px;
-  padding-bottom: 18px;
-}
-
-.form_text2 {
-  width: 200px;
-  height: 24px;
-  font-weight: 200;
-  font-size: 10.97px;
-  line-height: 100%;
-  font-family: 'Exo2', sans-serif;
-  color: #EF692B;
-  margin-left: 116px;
-  margin-top: 1px;
-  padding-bottom: 18px;
 }
 
 /* --------------- Корректируем .bg-start: --------------- */
@@ -112,7 +87,7 @@
   left: 0;
 
 
-  background-image: url("../images/flowers.svg");
+  background-image: url("../images/flowers.webp");
   background-repeat: no-repeat;
   
   background-size: 100% auto;
@@ -208,4 +183,62 @@
   border: none;
   background-color: #AAB9B1C4;
   cursor: pointer;
+}
+
+
+.form__title{
+  width: 100%;
+  text-align: center;
+  margin-left: 0; /* убираем margin-left */
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; /* центрируем */
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form__input{
+  width: 100%; /* растягиваем по ширине */
+  box-sizing: border-box; /* важно для padding */
+}
+
+.form__input {
+  padding: 6px 8px;
+}
+
+/* Фон */
+.bg-image {
+  width: 100%;
+  background-size: cover; /* растянуть */
+  background-position: top center;
+}
+
+.form_text {
+  width: 235px;
+  height: 24px;
+  font-weight: 200;
+  font-size: 18.97px;
+  line-height: 100%;
+  font-family: 'Exo2', sans-serif;
+  color: #EF692B;
+  margin-left: 157px;
+    margin-top: 15px;
+    padding-bottom: 0px;
+}
+
+.form_text2 {
+  width: 200px;
+  height: 24px;
+  font-weight: 200;
+  font-size: 10.97px;
+  line-height: 100%;
+  font-family: 'Exo2', sans-serif;
+  color: #EF692B;
+  margin-left: 116px;
+  margin-top: 1px;
+  padding-bottom: 18px;
 }
