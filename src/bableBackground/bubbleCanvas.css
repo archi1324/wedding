@@ -1,0 +1,10 @@
+/* src/components/bubbleCanvas.css */
+.bubble-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;       /* делаем канвас выше всех остальных элементов */
+  pointer-events: none; /* клики сквозь канвас к контенту */
+}

@@ -1,0 +1,112 @@
+.date_background{
+     margin-top: 33px;
+    margin-left: 5px;
+}
+
+.main_img_date{
+    margin-top: -62px;
+    margin-left: 9px;
+}
+
+.main_img_timing{
+    margin-top: 14px;
+    margin-left: -5px;
+}
+
+.h1_text{
+width: 85;
+height: 23;
+font-family: 'Exo2', sans-serif;
+font-weight: 200;
+font-size:24px;
+line-height: 125%;
+letter-spacing: 0%;
+
+    margin-top: 5px;
+    margin-left: 125px;
+}
+
+.main__date_text{
+    font-family: 'Exo2', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: -6px;
+    word-spacing: 1.1px;
+    line-height: 1.36;
+}
+
+.h2_text{
+font-family: 'Exo2', sans-serif;
+    font-weight: 200;
+    font-size: 19px;
+    margin-top: -7px;
+    margin-left: 8px;
+    margin-bottom: 7px;
+    letter-spacing: 0.5px;
+}
+
+.clothes_container {
+  display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 35px;
+    row-gap: 0px;
+    justify-content: center;
+    padding: 0;
+}
+
+.clothes_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_img_color {
+      margin-top: 5px;
+    margin-left: -4px;
+}
+
+.text_color {
+      margin-top: 7px;
+    font-family: 'Exo2', sans-serif;
+    font-weight: 200;
+    font-size: 14.55px;
+    line-height: 125%;
+    width: 52px;
+    height: 18px;
+    margin-left: -4px;
+}
+
+.clothes_container .clothes_item:nth-child(2) .text_color {
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+/* 3-й элемент (index = 2) */
+.clothes_container .clothes_item:nth-child(3) .text_color {
+  margin-top: 5px;
+  margin-left: -37px;
+}
+
+/* 4-й элемент (index = 3) */
+.clothes_container .clothes_item:nth-child(4) .text_color {
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+.h2_text_woman{
+   font-weight: 200;
+    font-size: 18px;
+    margin-top: -4px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.main_img_woman{
+  margin-top: 0px;
+    margin-left: 5px;
+}
+
+.main_img_colors{
+  margin-top: 6px;
+    margin-left: 10px;
+}

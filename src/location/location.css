@@ -1,0 +1,45 @@
+.location_h1{
+width: 208px;
+    margin-top: 10px;
+    height: 29px;
+    margin-left: 85px;
+
+font-family: 'Exo2', sans-serif;
+font-weight: 200;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.location_text{
+width: 350px;
+height: 46px;
+font-family: 'Exo2', sans-serif;
+font-weight: 200;
+font-size: 18px;
+line-height: 125%;
+letter-spacing: 0%;
+    margin-left: 15px;
+    margin-top: -8px;
+    margin-bottom: 5px;
+}
+
+
+.location_button{
+  width: 153px;
+  height: 22.52px;
+  background-color: #AAB9B1C4; /* фон */
+  color: #000000; /* чёрный текст */
+  margin-top: 16px;
+  margin-left: 113px;
+  border: none;
+  font-family: 'Exo2', sans-serif;
+  font-weight: 200;
+  font-size: 12.24px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  cursor: pointer;
+}
+

@@ -1,0 +1,35 @@
+.main__container_main{
+height: 274px;
+}
+
+.H1__text{
+  width: 219px;
+height: 54px;
+margin-top: 19px;
+margin-left: 78px;
+margin-bottom: 0;
+font-family: 'Greate_Vibes', sans-serif;;
+font-weight: 400;
+font-size: 43px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.main__text {
+  font-family: 'Exo2', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 127%;
+  color: #000000;
+  margin: 0;
+  text-indent: 12px; 
+  letter-spacing: 0.0px;
+    word-spacing: 0.1px;
+}
+.text_container{
+  width: 347px;
+  height: 230px;
+  margin: auto;
+  margin-top: 8px;
+}
