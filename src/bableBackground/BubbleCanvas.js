@@ -1,5 +1,6 @@
 // src/components/BubbleCanvas.jsx
 import React, { useRef, useEffect } from 'react';
+import bubbleImg from '../images/Mask group.svg';
 import './bubbleCanvas.css';
 
 const BubbleCanvas = () => {
@@ -20,7 +21,7 @@ const BubbleCanvas = () => {
 
     // Загружаем картинку пузыря
     const img = new Image();
-    img.src = "../images/Mask group.";
+    img.src = bubbleImg;
 
     // Конструктор одного пузыря
     class Bubble {
