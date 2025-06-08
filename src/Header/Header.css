@@ -7,8 +7,9 @@
 
 .header__text{
   position: absolute;
-  top: 244px;
-  left: 230px;
+  left: 50%;
+    top: 50%;
+    transform: translate(22%, 208%);
   width: 147px;
   height: 43px;
   color: #F0692B;

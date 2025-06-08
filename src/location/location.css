@@ -45,3 +45,10 @@ letter-spacing: 0%;
   cursor: pointer;
 }
 
+
+.location_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
