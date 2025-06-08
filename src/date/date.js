@@ -1,17 +1,17 @@
 import "./date.css"
-import dateImg from "../images/date.webp";
-import datesImg from "../images/datesimg.webp";
-import timing from "../images/timing.webp";
-import item1 from "../images/item1.webp";
-import item2 from "../images/item2.webp";
-import item3 from "../images/item3.webp";
-import item4 from "../images/item4.webp";
-import item11 from "../images/item11.webp";
-import item12 from "../images/item12.webp";
-import item13 from "../images/item13.webp";
-import item14 from "../images/item14.webp";
-import womanImage from "../images/womanImage.webp"
-import colors from "../images/colors.webp"
+import dateImg from "../images/date.svg";
+import datesImg from "../images/datesimg.svg";
+import timing from "../images/timing.svg";
+import item1 from "../images/item1.svg";
+import item2 from "../images/item2.svg";
+import item3 from "../images/item3.svg";
+import item4 from "../images/item4.svg";
+import item11 from "../images/item11.svg";
+import item12 from "../images/item12.svg";
+import item13 from "../images/item13.svg";
+import item14 from "../images/item14.svg";
+import womanImage from "../images/womanImage.svg"
+import colors from "../images/colors.svg"
 
 import Item from "./item";
 

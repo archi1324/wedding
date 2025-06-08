@@ -1,6 +1,6 @@
 
 import './Header.css'
-import mainImg from "../images/header_img.webp"
+import mainImg from "../images/header_img.svg"
 // import lineImg from "../images/line.svg"
 
 const Header = () => {
