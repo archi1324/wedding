@@ -12,7 +12,7 @@ const BirthdayInvitationForm = () => {
     attending: Yup.string().required('Укажите, придёте ли вы'),
     drinks: Yup.string().required('Укажите предпочтения'),
     lodging: Yup.string().required('Укажите, нужна ли ночёвка'),
-    transport: Yup.string().required('Укажите, нужен ли транспорт'),
+    transport: Yup.string().required('Укажите, нужен ли трансфер'),
   });
 
   const formik = useFormik({
@@ -93,7 +93,7 @@ const BirthdayInvitationForm = () => {
             name="drinks"
             type="text"
             className="form__input"
-            placeholder="Например: Пиво, Виски..."
+            placeholder="Например: белое вино, Виски..."
             autoComplete='off'
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
