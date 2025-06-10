@@ -118,7 +118,7 @@ const BirthdayInvitationForm = () => {
             <div className="error">{formik.errors.lodging}</div>
           )}
 
-          <label className="form__label">Потребуется ли Вам транспорт?</label>
+          <label className="form__label">Потребуется ли Вам трансфер?</label>
           <input
             name="transport"
             type="text"
